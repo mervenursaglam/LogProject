@@ -6,7 +6,7 @@
           <textarea type="text" style="width: 400px; height: 24px" #postText></textarea>
           <br>
           <div>  Lütfen log türünü seçiniz.
-            <select name="selectadi" id="selectkutuID" (onchange)="degergoster()" style="margin-left:18px;">
+            <select style="margin-left:18px;">
               <option value="Transaction Log">Transaction Log</option>
               <option value="Event Log">Event Log</option>
               <option value="Syslog">Syslog</option>
@@ -33,15 +33,4 @@
 
 </table>
 
-
-	
-<script>
-	function degergoster() {
-    alert("#merhaba");
-		var selectkutu = document.getElementById('selectkutuID');
-		var selectkutu_value = selectkutu.options[selectkutu.selectedIndex].value;
-		var selectkutu_text = selectkutu.options[selectkutu.selectedIndex].text;
-		alert(selectkutu_value+' '+selectkutu_text);
-	}
-</script>
 
