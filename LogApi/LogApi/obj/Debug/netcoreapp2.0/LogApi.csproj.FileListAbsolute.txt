@@ -1,0 +1,11 @@
+C:\Users\Pc\source\repos\LogApi\LogApi\bin\Debug\netcoreapp2.0\LogApi.deps.json
+C:\Users\Pc\source\repos\LogApi\LogApi\bin\Debug\netcoreapp2.0\LogApi.runtimeconfig.json
+C:\Users\Pc\source\repos\LogApi\LogApi\bin\Debug\netcoreapp2.0\LogApi.runtimeconfig.dev.json
+C:\Users\Pc\source\repos\LogApi\LogApi\bin\Debug\netcoreapp2.0\LogApi.dll
+C:\Users\Pc\source\repos\LogApi\LogApi\bin\Debug\netcoreapp2.0\LogApi.pdb
+C:\Users\Pc\source\repos\LogApi\LogApi\obj\Debug\netcoreapp2.0\LogApi.csprojAssemblyReference.cache
+C:\Users\Pc\source\repos\LogApi\LogApi\obj\Debug\netcoreapp2.0\LogApi.csproj.CoreCompileInputs.cache
+C:\Users\Pc\source\repos\LogApi\LogApi\obj\Debug\netcoreapp2.0\LogApi.AssemblyInfoInputs.cache
+C:\Users\Pc\source\repos\LogApi\LogApi\obj\Debug\netcoreapp2.0\LogApi.AssemblyInfo.cs
+C:\Users\Pc\source\repos\LogApi\LogApi\obj\Debug\netcoreapp2.0\LogApi.dll
+C:\Users\Pc\source\repos\LogApi\LogApi\obj\Debug\netcoreapp2.0\LogApi.pdb
