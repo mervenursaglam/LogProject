@@ -1,36 +1,35 @@
 
     <tr>
-        <td>
-         
-          <div>Lütfen bir log mesajı giriniz.
+      <td> 
+        <div>Lütfen bir log mesajı giriniz.
           <textarea type="text" style="width: 400px; height: 24px" #postText></textarea>
           <br>
+          
           <div>  Lütfen log türünü seçiniz.
             <select style="margin-left:18px;">
               <option value="Transaction Log">Transaction Log</option>
               <option value="Event Log">Event Log</option>
               <option value="Syslog">Syslog</option>
             </select>
-          
             <button style="background-color:rgb(90, 90, 216); margin-left:40px;" background="red" (click)="Create(postText)"> Ekle</button>
           </div>
-        </div>
-          
-        </td>
-      </tr>
+         </div>
+      </td>
+    </tr>
      
-<table style="background-color:rgb(243, 221, 243);">
-  <tr> 
-    <td style="text-align:center;"> Log Mesajı</td>
-    <td style="text-align:center;"> Tarih</td>
-  </tr>
+    <table style="background-color:rgb(243, 221, 243);">
+      <tr> 
+        <td style="text-align:center;"> Log Mesajı</td>
+        <td style="text-align:center;"> Tarih</td>
+      </tr>
 
-  <tr *ngFor="let value of values">
-    <td style="border-style:double"> {{value.message}}</td>
-    <td style="border-style:double"> {{value.tarih}}</td>
-    <br>
-  </tr>
+      <tr *ngFor="let value of values">
+        <td style="border-style:double"> {{value.message}}</td>
+        <td style="border-style:double"> {{value.tarih}}</td>
+        <br>
+      </tr>
 
-</table>
+    </table>
+
 
 
